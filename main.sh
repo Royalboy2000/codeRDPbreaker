@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Check if pyfiglet and colorama are installed
-if ! command -v pyfiglet &>/dev/null || ! command -v python -m colorama &>/dev/null; then
-    echo "Error: pyfiglet and/or colorama are not installed. Please install them using 'pip install pyfiglet colorama'."
-    exit 1
-fi
 
 # Display the "RDP Breaker" text in ASCII art style with colors
 python - <<'EOF'
