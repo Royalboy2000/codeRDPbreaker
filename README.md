@@ -40,6 +40,10 @@ To deploy this project run
   cd codeRDPbreaker
 ```
 ```bash
+  pip install pyfiglet colorama
+```
+
+```bash
   bash main.sh
 ```
 
