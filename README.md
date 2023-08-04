@@ -44,7 +44,7 @@ To deploy this project run
 ```
 
 ```bash
-  bash main.sh
+  sudo python3 main.py
 ```
 
 
