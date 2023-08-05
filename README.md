@@ -34,6 +34,29 @@ Key Features
 - Expanded Features: Python adds options to run multiple Metasploit exploits.
 - Flexibility: Python handles various scenarios and exceptions for a smoother user experience.
 
+### New Exploit 1
+
+- **Exploit Name:** CVE-2019-0708 BlueKeep
+- **Description:** Exploit for Microsoft Remote Desktop Protocol (RDP) vulnerability (CVE-2019-0708), also known as BlueKeep.
+- **Added in Python Script:** The Python script now supports running the CVE-2019-0708 BlueKeep exploit in Metasploit.
+- **Usage:** To run the CVE-2019-0708 BlueKeep exploit, choose option '1' when prompted for the exploit in the script. Then, provide the required inputs such as the number of RDP hosts and the file containing the list of RDP hosts.
+- **Note:** Make sure to have the latest version of Metasploit installed and up-to-date exploit modules for CVE-2019-0708 BlueKeep.
+
+### New Exploit 2
+
+- **Exploit Name:** CVE-2021-34527 PrintNightmare
+- **Description:** Exploit for Windows Print Spooler Remote Code Execution vulnerability (CVE-2021-34527), also known as PrintNightmare.
+- **Added in Python Script:** The Python script now supports running the CVE-2021-34527 PrintNightmare exploit in Metasploit.
+- **Usage:** To run the CVE-2021-34527 PrintNightmare exploit, choose option '2' when prompted for the exploit in the script. Then, provide the required inputs such as the number of RDP hosts and the file containing the list of RDP hosts.
+- **Note:** Make sure to have the latest version of Metasploit installed and up-to-date exploit modules for CVE-2021-34527 PrintNightmare.
+
+### New Exploit 3
+
+- **Exploit Name:** CVE-2021-36942 MS-RDP Licensing
+- **Description:** Exploit for Microsoft Remote Desktop Protocol (RDP) Licensing service vulnerability (CVE-2021-36942).
+- **Added in Python Script:** The Python script now supports running the CVE-2021-36942 MS-RDP Licensing exploit in Metasploit.
+- **Usage:** To run the CVE-2021-36942 MS-RDP Licensing exploit, choose option '3' when prompted for the exploit in the script. Then, provide the required inputs such as the number of RDP hosts and the file containing the list of RDP hosts.
+- **Note:** Make sure to have the latest version of Metasploit installed and up-to-date exploit modules for CVE-2021-36942 MS-RDP Licensing.
 
 
 ## Deployment
