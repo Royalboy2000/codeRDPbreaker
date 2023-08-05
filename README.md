@@ -22,6 +22,20 @@ Key Features
 
 - Interactive Menu: The tool presents an interactive menu that displays choices in a user-friendly manner, making it easy for users to navigate.
 
+  ## UPDATE V2
+
+- Improved Readability: Python code is structured and easier to read.
+- Better User Interaction: Python script provides a user-friendly interface with input validation.
+- Color and ASCII Art: Python adds color and ASCII art for a visually appealing display.
+- Secure Command Execution: Python uses subprocess for safer command execution.
+- String Manipulation: Python uses regular expressions for sophisticated text processing.
+- Enhanced Error Handling: Python displays informative error messages in red for better troubleshooting.
+- Code Reusability: Python's functions enable easier code reuse and maintainability.
+- Expanded Features: Python adds options to run multiple Metasploit exploits.
+- Flexibility: Python handles various scenarios and exceptions for a smoother user experience.
+
+
+
 ## Deployment
 
 To deploy this project run
